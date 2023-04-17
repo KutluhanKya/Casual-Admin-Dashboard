@@ -1,0 +1,19 @@
+.navbar {
+  @apply text-gray-600 dark:bg-[#5454C5] w-full dark:text-white flex justify-end items-end flex-row space-x-7 p-5;
+
+  .avatar1 {
+    @apply flex flex-row;
+
+    .title {
+      @apply mt-4 ml-2;
+    }
+
+    .avatar {
+      @apply w-[35px] mt-3;
+    }
+  }
+
+  .set {
+    @apply mb-1;
+  }
+}

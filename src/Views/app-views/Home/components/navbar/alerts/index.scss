@@ -1,0 +1,15 @@
+.notifications-dropdown {
+  @apply hover:bg-red;
+
+  .notifications-icon {
+    @apply flex flex-col hover:bg-red;
+
+    .notification-item {
+      @apply bg-red-500;
+    }
+
+    .notifications-count {
+      @apply bg-stone-500 text-white rounded-full;
+    }
+  }
+}

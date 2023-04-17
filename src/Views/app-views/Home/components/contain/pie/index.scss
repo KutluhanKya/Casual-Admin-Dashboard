@@ -1,0 +1,43 @@
+.bg {
+  @apply text-black p-10;
+
+  .form {
+    @apply fixed top-0 bottom-0 right-0 left-0 flex-col  bg-blue-500     flex justify-center   items-center;
+
+    .forms {
+      @apply p-3 m-3;
+    }
+  }
+
+  .head {
+    .title1 {
+      @apply text-xl uppercase;
+    }
+  }
+
+  .body {
+    @apply border-2 border-black;
+    .add {
+      @apply text-green-600;
+    }
+    .row {
+      @apply border-2 border-black hover:bg-gray-200;
+
+      .remove-animation {
+        @apply ease-in-out opacity-0 -translate-x-full;
+      }
+
+      .data {
+        @apply p-6;
+
+        .button {
+          @apply text-red-600;
+        }
+
+        .edit {
+          @apply text-yellow-500 ml-4;
+        }
+      }
+    }
+  }
+}

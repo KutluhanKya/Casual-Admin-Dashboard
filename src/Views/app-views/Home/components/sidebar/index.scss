@@ -1,0 +1,31 @@
+.sidebar {
+  @apply fixed top-0 flex text-start justify-start left-0 w-[100px] h-full bg-white  text-black  transition-all delay-100 ease-in-out z-10 dark:text-white dark:bg-[#342056];
+}
+
+.sidebar.open {
+  @apply left-0 w-[300px] bg-white dark:bg-[#342056]  dark:text-white;
+}
+
+.toggle-btn {
+  @apply absolute cursor-pointer text-white dark:text-black  dark:bg-white p-2 rounded-full bg-green-400 top-48 -right-4;
+}
+
+.icon {
+  @apply flex flex-col text-center justify-center gap-5;
+
+  .avatar {
+    @apply rounded-full w-[90px]  ml-[6px]  text-black dark:text-white flex flex-row mb-28;
+
+    .user {
+      @apply flex flex-col justify-start text-start;
+    }
+  }
+
+  .icons {
+    @apply ml-6 mb-9 text-black dark:text-white flex flex-row dark:hover:text-opacity-25 hover:text-blue-400;
+
+    .word {
+      @apply ml-3 mt-1 text-xl delay-75 transition-all;
+    }
+  }
+}

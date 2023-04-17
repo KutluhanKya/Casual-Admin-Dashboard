@@ -1,0 +1,39 @@
+.login {
+  @apply bg-[#295A5F]  h-screen justify-center flex items-center;
+
+  .box {
+    @apply p-2 bg-white rounded-lg flex flex-row shadow-2xl;
+
+    .box1 {
+      @apply bg-[#6DCFC3] w-[650px] h-[650px];
+
+      .title {
+        @apply text-4xl flex justify-center text-center mt-7;
+      }
+
+      .card {
+        @apply flex flex-col justify-start items-start ml-52 mt-32 text-2xl;
+
+        .k1 {
+          @apply flex flex-row space-x-3;
+        }
+
+        .input {
+          @apply mb-3 rounded-lg p-2;
+        }
+
+        .text {
+          @apply mb-3;
+        }
+
+        .button {
+          @apply bg-green-500 w-36 p-2 rounded-xl hover:bg-white delay-150;
+        }
+      }
+    }
+
+    .box2 {
+      @apply bg-blue-500 w-[650px] h-[650px];
+    }
+  }
+}

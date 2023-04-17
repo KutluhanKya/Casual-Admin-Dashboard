@@ -1,0 +1,27 @@
+.label {
+  @apply flex items-center space-x-2 cursor-pointer select-none;
+
+  .input {
+    @apply hidden;
+  }
+
+  .inner {
+    @apply relative w-16 h-8 rounded-full bg-yellow-300 delay-200 transition-all;
+
+    .spring {
+      @apply flex items-center text-center  absolute top-0 left-0 w-8 h-8 rounded-full bg-white shadow-md delay-200 transition-all;
+
+      .switch {
+        @apply text-gray-700 text-lg m-1;
+      }
+    }
+
+    .animated {
+      @apply absolute top-0 left-8 w-8 h-8 rounded-full bg-white shadow-md;
+    }
+  }
+
+  .newInner {
+    @apply relative w-16 h-8 rounded-full bg-blue-600;
+  }
+}
